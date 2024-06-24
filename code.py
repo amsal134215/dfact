@@ -4,7 +4,7 @@ from openai import OpenAI
 
 # Function to query OpenAI GPT-4 for validation
 def validate_text_with_gpt4(transcribed_text):
-    api_key = "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"
+    api_key = ""
     client = OpenAI(api_key=api_key)
 
     input = transcribed_text + ". Answer with references."
